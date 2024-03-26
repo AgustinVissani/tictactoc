@@ -44,6 +44,4 @@ describe('index.html', () => {
     it('player 2 is inactive on load', function() {
         expect(container.querySelector('#player2').classList).not.toContain('active');
     });
-
-    // Otras pruebas deben ajustarse similarmente
 });
