@@ -1,9 +1,9 @@
-body{
+body {
     background: white;
-    color:blue;
+    color: blue;
 }
 
-#table-section{
+#table-section {
     width: 500px;
     height: 500px;
     top: 50%;
@@ -42,57 +42,58 @@ body{
     font-size: 16px;
 }
 
-.line{
+.line {
     border-radius: 15px;
     position: absolute;
     display: inline-block;
 }
 
-.horizontal{
+.horizontal {
     border-left: 20px solid blue;
-    height:100%;
+    height: 80%;
 }
 
-.line1{
-    left:25%;
+.line1 {
+    left: 25%;
     margin-left: -10px;
 }
 
-.line2{
-    left:50%;
+.line2 {
+    left: 50%;
     margin-left: -2px;
 }
 
-.line3{
+.line3 {
     left: 75%;
     margin-left: -2px;
 }
 
-.vertical{
+.vertical {
     border-top: 20px solid blue;
-    width: 100%;
+    width: 80%;
 }
 
-.line4{
-    top:25%;
+.line4 {
+    top: 25%;
     margin-top: -2px;
 }
 
-.line5{
-    top:50%;
+.line5 {
+    top: 50%;
     margin-top: -2px;
 }
 
-.line6{
-    top:75%;
+.line6 {
+    top: 75%;
     margin-top: -2px;
 }
-.row{
-    display: inline-flex;
+
+.row {
+    display: flex;
     flex-direction: row;
 }
 
-.tile{
+.tile {
     justify-content: center;
     align-items: center;
     font-size: 150px;
@@ -101,25 +102,24 @@ body{
     display: flex;
 }
 
-#players{
+#players {
     position: fixed;
     bottom: 20px;
-    display:inline-flex;
     width: 100%;
+    display: flex;
     justify-content: center;
-    /*justify content mueve el contenido a la mitad al centro del contenedor(solpara flex)  */
     align-items: center;
 }
 
-.player{
+.player {
     border: 5px solid white;
     border-radius: 10%;
     margin-left: 6%;
     margin-right: 6%;
-    font-size: 200%;
-    padding: 2px 10px 2px 10px;
+    font-size: 30px; 
+    padding: 10px 20px; 
 }
 
-.active{
+.active {
     background: green;
 }

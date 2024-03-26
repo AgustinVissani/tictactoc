@@ -13,9 +13,9 @@ function getPlayers() {
 
 function checkWin() {
     const winPatterns = [
-        [1, 2, 3], [5, 6, 7], [9, 10, 11], // Horizontales
-        [1, 5, 9], [2, 6, 10], [3, 7, 11], // Verticales
-        [1, 6, 11], [3, 6, 9] // Diagonales
+        [1, 2, 3], [4, 5, 6], [7, 8, 9], // Horizontales
+        [1, 4, 7], [2, 5, 8], [3, 6, 9], // Verticales
+        [1, 5, 9], [3, 5, 7] // Diagonales
     ];
 
     return winPatterns.some(pattern => {
